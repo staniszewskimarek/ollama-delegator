@@ -1,4 +1,4 @@
-# Ollama Pattern — Detailed Documentation
+# Ollama Delegator — Detailed Documentation
 
 ## Background and Motivation
 
