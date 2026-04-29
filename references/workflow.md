@@ -5,7 +5,7 @@
 **Why:** Anthropic tokens = expensive strategic thinking. Ollama = free routine executor.
 The 2-attempt rule gives Ollama a fair chance while stopping irrational iteration on dead ends.
 
-## Available Models (account MarekSt, April 2026)
+## Available Models (account Name, April 2026)
 
 | Model | Status | Notes |
 |-------|--------|-------|
