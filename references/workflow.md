@@ -19,25 +19,7 @@ The 2-attempt rule gives Ollama a fair chance while stopping irrational iteratio
 
 To refresh access: `ollama signin` (account verification).
 
-## Test Results (April 2026)
-
-### File Organization Scripts
-
-| File type | Task | Status | Notes |
-|-----------|------|--------|-------|
-| PDF | Move 17 files to ./PDF-files with counters | ✅ Success | Comments, process substitution, counters |
-| PNG | Move ALL .png files | ✅ Success (attempt 2) | Attempt 1: scope too narrow |
-| PPT | Move .pptx + .ppt | ✅ Success | 7/8 files (1 resource-busy = expected) |
-| JSON | Search + move workflow files | ✅ Success | grep -iq for case-insensitive content search |
-
-### Key Observations
-
-- ✅ Generates production-quality bash scripts
-- ✅ Includes robustness: error handling, counters, safety mechanisms
-- ✅ 2-attempt rule works — PNG required 1 correction, then success
-- ✅ Fast feedback loop compared to Anthropic API latency
-
-## Bash Techniques (validated by tests)
+## Recommended Bash Techniques
 
 ```bash
 # Safe handling of filenames with spaces
