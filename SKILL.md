@@ -1,5 +1,5 @@
 ---
-name: ollama-pattern
+name: ollama-delegator
 description: This skill should be used when the user asks to "delegate to ollama", "use ollama pattern", "run through ollama", "save anthropic tokens", "ollama executor", "delegate task to local model", or wants to execute a task via Ollama before escalating to Anthropic. Implements the Plan → Delegate → Verify workflow with a strict 2-attempt limit.
 version: 1.0.0
 allowed-tools: Bash
